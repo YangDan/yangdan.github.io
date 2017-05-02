@@ -17,20 +17,29 @@ layout: page
 	<br/>
 	<span>不知道说什么了</span><br/>
 	<br/>
-	<span>留个微信吧:near_wmy2012(**请注明从gitpages上看到的联系方式**)</span>
+	<span>留个微信吧:ydzatzj(**请注明从gitpages上看到的联系方式**)</span>
 </div>
 <h2>Skills</h2>
 
 <ul class="skill-list">
+	<li>Objective C</li>
 	<li>HTML - CSS</li>
 	<li>CSS (Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript</li>
+	<li>Javascript A little</li>
+	<li>Python</li>
+	<li>Mysql</li>
+</ul>
+
+<h2>Improve</h2>
+
+<ul class="need to up skill-list ">
 	<li>NodeJS 一点点</li>
 	<li>VueJS - ReactJS  一点点</li>
 	<li>Grunt - Gulp - Webpack</li>
 	<li>Git</li>
+	<li>Css Frameworks (Bootstrap, Foundation)</li>
 </ul>
+
 <h2>Resume</h2>
 <ul>
 	<li><a href="http://wmynear.deercv.com/">在线简历</a></li>		
