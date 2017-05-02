@@ -1,1 +1,1 @@
-## [blog](https://nearwmy.github.io)
+## [blog](https://yangdan.github.io)
