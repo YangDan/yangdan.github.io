@@ -1,0 +1,85 @@
+---
+title: 'HTTP协议那些事儿'
+layout: post
+date: 2017-03-14 13:40
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- http协议
+star: true
+category: fontend
+author: near
+description: http协议 http
+---
+
+<span style="font-size: 14px;">之前面试总是问到这方面的知识，可能觉得自己还有所欠缺，所以想在这里记一笔，总结也是一种学习。</span>
+
+## HTTP干什么的
+
+HTTP是一个基于TCP/IP通信协议来传递数据（HTML 文件, 图片文件, 查询结果等）。属于应用层面向对象的一个协议,前端开发用到它的一般就是向服务器请求数据,然后返回客户端渲染。
+
+## 我们需要知道的
+
+### HTTP之Request Header
+
+![request header](/assets/images/2017-03-14-a.png)
+
+<ul>
+	<li><strong>Accpect</strong> 请求格式</li>
+	<li><strong>Accpect-Encoding </strong> 说明自己可以接受的压缩格式</li>
+	<li><strong>Accpect-Language </strong> 说明自己可以接受的语言格式</li>
+	<li><strong>Connection </strong> 说明该TCP连接的连接方式
+		<ul>
+			<li><strong>keep-alive</strong> 表示不关闭，可复用该连接发送请求，服务器端同样回应该字段</li>
+			<li><strong>close</strong> 表示请求发送就关闭连接，不等待服务端返回，想发送连接必须新建，需要客户端和服务端三次握手，开始时发送速率较慢，成本较高</li>
+		</ul>
+	</li>
+	<li><strong>Cookie </strong> 每次发送http请求本域名下的cookie会作为附带信息传给服务器</li>
+	<li><strong>Host </strong> 客户端指定自己想请求的服务球的域名/IP之类的</li>
+  <li><strong>If-Modified-Since</strong>告诉服务端如果请求的对象在该请求头指定的时间之后修改了，则执行该动作</li>
+  <li><strong>If-Range</strong>告诉浏览器如果请求的对象没有改变就把剩余的部分传给我，如果已经发生改变就把新的对象传给我</li>
+	<li><strong>If-Match </strong> 设置了Etag,然后对象的Etag没有变化就执行此动作</li>
+  <li><strong>If-None-Match </strong> 设置了Etag,然后对象的Etag发生了变化就执行此动作</li>
+  <li><strong> Referer </strong> 向服务端表明客户端从哪里获得此请求连接的</li>
+  <li><strong> User-Agent </strong> 客户端说明自己身份</li>
+  <li><strong> Request-Url </strong> 请求服务端的url</li>
+  <li><strong> Request-Method</strong> 请求方法 get/post/put/delete </li>
+
+</ul>
+
+### HTTP之Response Header
+
+![response header](/assets/images/2017-03-14-b.png)
+<ul>
+	<li><strong>Cache-Control</strong> 
+		<ul>
+			<li><strong>no-cache</strong> 会发起往返通信来验证缓存的响应，但如果资源未发生变化，则可避免下载。</li>
+			<li><strong>no-store</strong> 会禁止浏览器以及中间缓存缓存一切响应数据</li>
+			<li><strong>max-age</strong> 只接受age值小于max－age的并且没有过期的对象</li>
+			<li><strong>max-stale</strong> 可接受过期的值，但是过期时间小于max－stale</li>
+			<li><strong>min-fresh</strong> 可接受新鲜生命周期大于当前min-fresh的对象缓存</li>
+			<li><strong>pustronglic</strong> 任意用户可使用缓存数据</li>
+			<li><strong>private</strong> 只有之前请求该对象的用户可使用缓存数据</li>
+		</ul>
+	</li>
+	<li><strong>Etag </strong> 对一个对象的标志值，来判断该对象是否被改变，和cache－control搭配使用</li>
+	<li><strong>Server </strong> 说明服务端的软件以及版本信息</li>
+	<li><strong>Content-Encoding </strong> 声明服务端的压缩格式</li>
+	<li><strong>Conent-Language </strong> 声明服务端的语言格式</li>
+  <li><strong>Conent-Length</strong> 声明服务端响应的字符长度</li>
+  <li><strong>Content-Range</strong> 告诉客户端响应的是整体对象的哪个部分</li>
+	<li><strong>Content-Type </strong> 声明服务端的响应对象的格式</li>
+
+
+</ul>
+
+### HTTP之状态码
+
+[还是看这里吧](http://www.jianshu.com/p/80e25cb1d81a)
+
+参考资料：
+
+- [HTTP协议入门](http://www.ruanyifeng.com/blog/2016/08/http.html)
+- [关于http协议，一篇就够了](http://www.jianshu.com/p/80e25cb1d81a)
+- [http头字段总结](http://www.360doc.com/content/12/0702/11/8093902_221675556.shtml)
+
