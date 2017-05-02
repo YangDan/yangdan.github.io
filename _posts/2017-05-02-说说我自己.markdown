@@ -12,39 +12,39 @@ author: yangdan
 description: http协议 http
 ---
 
-<span style="font-size: 14px;">一首哥哥 《我》</span>
+<span style="font-size: 14px;"> 《我》</span>
 
 ## 《 我 》
 
-I am what i am
-我永远都爱这样的我
-快乐是
-快乐的方式不只一种
-最荣幸是
-谁都是造物者的光荣
-不用闪躲
-为我喜欢的生活而活
-不用粉墨
-就站在光明的角落
-我就是我
-是颜色不一样的烟火
-天空海阔
-要做最坚强的泡沫
-我喜欢我
-让蔷薇开出一种结果
-孤独的沙漠里
-一样盛放的赤裸裸
-多么高兴
-在琉璃屋中快乐生活
-对世界说什么是光明和磊落
-我就是我
-是颜色不一样的烟火
-天空海阔
-要做最坚强的泡沫
-我喜欢我
-让蔷薇开出一种结果
-孤独的沙漠里
-一样盛放的赤裸裸
+<span>I am what i am</span>
+<span>我永远都爱这样的我</span>
+<span>快乐是</span>
+<span>快乐的方式不只一种</span>
+<span>最荣幸是</span>
+<span>谁都是造物者的光荣</span>
+<span>不用闪躲</span>
+<span>为我喜欢的生活而活</span>
+<span>不用粉墨</span>
+<span>就站在光明的角落</span>
+<span>我就是我</span>
+<span>是颜色不一样的烟火</span>
+<span>天空海阔</span>
+<span>要做最坚强的泡沫</span>
+<span>我喜欢我</span>
+<span>让蔷薇开出一种结果</span>
+<span>孤独的沙漠里</span>
+<span>一样盛放的赤裸裸</span>
+<span>多么高兴</span>
+<span>在琉璃屋中快乐生活</span>
+<span>对世界说什么是光明和磊落</span>
+<span>我就是我</span>
+<span>是颜色不一样的烟火</span>
+<span>天空海阔</span>
+<span>要做最坚强的泡沫</span>
+<span>我喜欢我</span>
+<span>让蔷薇开出一种结果</span>
+<span>孤独的沙漠里</span>
+<span>一样盛放的赤裸裸</span>
 
 ## 
 
