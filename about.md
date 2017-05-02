@@ -42,11 +42,11 @@ layout: page
 
 <h2>Resume</h2>
 <ul>
-	<li></a></li>		
+	<li></li>		
 </ul>
 
 <h2>Projects</h2>
 
 <ul>
-	<li></a></li>
+	<li></li>
 </ul>
