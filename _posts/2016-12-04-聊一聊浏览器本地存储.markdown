@@ -1,0 +1,111 @@
+---
+title: "聊一聊浏览器本地存储"
+layout: post
+date: 2017-03-08 17:13
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- storage 
+star: true
+category: fontend
+author: near
+description: 客户端存储 cookie storage indexedDB
+---
+
+之前有遇到相关本地存储的问题，因为相关业务需求，需要存储大量数据到本地，我所了解的无非是常用的 LocalStorage 和 cookie，cookie 的存储大小限制众所周知，LocalStorage 的大小限制我知道在同域名下是 4-5M 左右，因浏览器差异不同，能不能存再多一点的，他提到了DB，当时还不是很熟悉也就没有作答，下来就再次熟悉了一下本地存储数据的一些选项。
+<br/>
+<hr/>
+### 常用的本地存储
+
+
+#### Cookie
+cookie是最初本地存储的最优选择，可以被js或者服务器操作，兼容性良好。可以用来存储有关数据，然后每次请求服务端的时候，该域名下的cookie字段会自动添加到 requrest header 中，所以服务端可以根据cookie来识别身份信息。
+![requrest header cookie](/assets/images/cookie.png)
+
+cookie以键值对的纯文本形式存入客户端,console中可以通过 document.cookie  访问cookie
+
+cookie的安全级别,先来讲讲cookie的属性选项有哪些<br/>
+
+{% highlight raw %}
+name :名字<br/>
+value :值<br/>
+domain :被指定在哪个域名下被发送至服务端,默认情况下，cookie被创建的域名即为指定域名<br/>
+path :指定请求资源的路径，在该路径下才会此cookie才会被发送，默认值是发送 Set-Cookie 消息头所对应的 URL 中的 path 部分<br/>
+expires :过期时间<br/>
+secure :在包含此选项时,当为https链接时此cookie才会被发送<br/>
+HttpOnly :仅服务端支持,设置此标记则为只能服务端访问，不能js访问也就是不能通过 document.cookie 访问<br/>
+{% endhighlight %}
+
+所以cookie的类型可分为三种：
+
+{% highlight raw %}
+* 一般cookie,可以服务端和js创建，js能访问
+*  httpOnly cookie 只能服务端创建，js不能访问
+*  secure cookie 服务端,js可创建,js仅在https下能访问
+{% endhighlight %}
+
+cookie的存储大小最大4kb，不宜存储过大数据，不宜存储敏感信息，因为他是明文存储的。
+
+#### Local storage
+ LocalStorage 是 html5 引进的本地存储技术，无过期时间，存储空间比cookie大，最大存储数据5M，并且提供了简单易操作的设置方法,目前支持IE7以上的浏览器，可以放心使用。
+
+{% highlight js %}
+if(window.localStorage && window.localStorage.getItem){
+	var localstorage = window.localStorage;
+	<!-- 常用方法 -->
+	localstorage.length;
+	localstorage.getItem(key);
+	localstorage.setItem(key.value);
+	localstorage.removeItem(key);
+	localstorage.clear();
+	localstorage.key(i);
+}
+{% endhighlight %}
+
+
+#### Session storage
+ sessionStorage 与 LocalStorage 有相同的用法和方法，只是存储时间上的差别， sessionStorage 只存在于会话页面，一旦页面关闭或者更换页面，存储信息将会消失，这里需要注意的是，页面及标签页仅指顶级窗口，如果一个标签页包含多个 iframe 标签且他们属于同源页面，那么他们之间是可以共享 sessionStorage 的。
+
+#### indexedDB
+上述方法都是可以在本地存储相对小而简单的数据，如果我们想存储大量数据在本地时，他们就不是那么适用了。这时候就想到了indexDB,它也是h5 web storage中的一员，可以在本地存储大量结构化数据，并可以使用索引高效检索的API.相对于上面的方法，他也不是那么常用，这里简单介绍一下他的用法。
+
+* 浏览器支持
+
+{% highlight js %}
+if(window.indexedDB || window.mozIndexedDB ||window.webkitIndexedDB){
+	alert('支持indexDB');
+}else{
+	alert('不支持indexDB');
+}
+{% endhighlight %}
+
+* 唯一方法 open() 
+
+{% highlight js %}
+var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexDB;
+//数据库名存在则打开，不存在则创建
+var request = indexedDB.open(name,version);
+//我们要访问的数据实例都在request对象的result属性中
+var obj = request.result;
+//所以懂得如何查找或修改result对象即可
+{% endhighlight %}
+
+
+* 此open方法其实请求的是一个 IDBOpenDBRequest 对象， 注意此处并不像我们通常调用的方法，然后会返回相应的结果，而是像类似ajax方法那样，发送一个请求，等待返回结果这样一个异步的响应流程 ,所以 IDBOpenDBRequest 对象还定义了几个事件方法:
+
+{% highlight js %}
+var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexDB;
+var request = indexedDB.open(name,version);
+//请求成功的回调函数
+request.onsuccess();
+//请求失败的回调函数
+request.onerror();
+//请求相应版本号失败的回调函数
+request.onupgradeneeded();
+{% endhighlight %}
+
+### 总结
+上述是现代浏览器常用的几种本地存储方法，不否认根据平时习惯带有一点主观色彩，不熟悉的或者值得注意的点着重提出来了，结合平时可能用到的知识点作出的分析，刚开始写文档，希望越来越好。
+
+
+

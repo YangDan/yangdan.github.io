@@ -1,0 +1,74 @@
+---
+title: '二维数组45度斜线遍历输出js实现'
+layout: post
+date: 2017-03-10 11:20
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- 二维数组 45度遍历
+star: true
+category: fontend
+author: near
+description: 二维数组 45度遍历 算法 js
+---
+
+
+### 面试小记
+
+抱着激动的心情去复试一家比较靠谱的技术公司，复试是技术总监，好像比较忙，直接切入主题，自我介绍，会哪些东西，之前初试，还做了homework，可能还想深入考察一下，给了我算法题，对于后端来说可能还是比较简单的吧，但是本人学艺不精，只描述了一个大概，显然总监不满意了，然后就没有然后了，只能说他们要找的不是我这种初级前端，不过总的来说还是比较郁闷的。。。。希望有多大失望就有多大。下来想不过，就有了这篇文章。
+
+### 具体需求
+
+
+![二维数组](/assets/images/2017-03-10-a.png)
+
+### 一言不合上代码
+
+{% highlight js %}
+
+var arr = [],
+	m = 6,
+	n = 6;
+for(let i = 0; i<m; i++){
+	let tmp = []
+	for(let j = 0; j<n; j++){
+		tmp.push('[' + i + j + ']')
+	}
+	arr.push(tmp)
+}
+console.log(tmp)
+
+function print(arr,m,n) {
+	for(let i = 0; i<m; i++){
+		getNext(arr,i,0)
+	}
+
+	for(let j= 1; j<n; j++){
+		getNext(arr,m-1,j)
+	}
+}
+
+function getNext(arr,i,j){
+	if(i >= 0 && i<m && j>=0 && j<n ){
+		console.log(arr[i][j])
+		getNext(arr,i-1,j+1)
+	}
+	return false
+}
+
+print(arr,m,n)
+
+{% endhighlight %}
+
+### 结果显示
+
+由于篇幅限制，只显示了上半部分的打印
+
+![二维数组](/assets/images/2017-03-10-b.png)
+
+
+吃亏长记性，以前觉得大学里教的计算机网络 数据结构 算法 操作系统没用，看来还是太年轻
+
+
+
+
