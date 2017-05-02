@@ -22,7 +22,7 @@ HTTP是一个基于TCP/IP通信协议来传递数据（HTML 文件, 图片文件
 
 ### HTTP之Request Header
 
-![request header](/assets/images/2017-05-02-a.png)
+![request header](/assets/images/2017-03-14-a.png)
 
 <ul>
 	<li><strong>Accpect</strong> 请求格式</li>
@@ -49,7 +49,7 @@ HTTP是一个基于TCP/IP通信协议来传递数据（HTML 文件, 图片文件
 
 ### HTTP之Response Header
 
-![response header](/assets/images/2017-05-02-b.png)
+![response header](/assets/images/2017-03-14-b.png)
 <ul>
 	<li><strong>Cache-Control</strong> 
 		<ul>
