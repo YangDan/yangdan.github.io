@@ -42,11 +42,11 @@ layout: page
 
 <h2>Resume</h2>
 <ul>
-	<li><a href="http://wmynear.deercv.com/">在线简历</a></li>		
+	<li></a></li>		
 </ul>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="http://www.gaiamount.com">Gaiamount</a></li>
+	<li></a></li>
 </ul>
