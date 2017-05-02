@@ -1,5 +1,5 @@
 # main text of home
-name: Near 
+name: YangDan 
 bio: A blog about font-end and life
 
 # twitter summary info
@@ -50,11 +50,11 @@ github: nearwmy
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
-email: nearwmy@gmail.com
+email: dandan_young@163.com
 
 authors:
     near:
-        name: near
+        name: YangDan
         bio: A blog about font-end and life
         external-image: false
         picture: assets/images/user.jpg
