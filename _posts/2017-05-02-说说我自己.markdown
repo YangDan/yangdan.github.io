@@ -12,45 +12,42 @@ author: yangdan
 description: http协议 http
 ---
 
-<span style="font-size: 14px;"> 《我》</span>
+## - [我](https://y.qq.com/portal/player.html)
+<ul>
+	<li>I am what i am</li>
+	<li>我永远都爱这样的我</li>
+	<li>快乐是</li>
+	<li>快乐的方式不只一种</li>
+	<li>最荣幸是</li>
+	<li>谁都是造物者的光荣</li>
+    <li>不用闪躲</li>
+    <li>为我喜欢的生活而活</li>
+	<li>不用粉墨</li>
+    <li>就站在光明的角落</li> 
+    <li>我就是我</li>
+    <li>是颜色不一样的烟火</li>
+    <li>天空海阔</li>
+    <li>要做最坚强的泡沫 </li>
+    <li>我喜欢我</li>
+    <li>让蔷薇开出一种结果</li>
+    <li>孤独的沙漠里</li>
+    <li>一样盛放的赤裸裸</li>
+    <li>多么高兴</li>
+    <li>在琉璃屋中快乐生活</li>
+    <li>对世界说什么是光明和磊落</li>
+    <li>我就是我</li>
+    <li>是颜色不一样的烟火</li>
+    <li>是颜色不一样的烟火</li>
+    <li>天空海阔</li>
+    <li>要做最坚强的泡沫 </li>
+    <li>我喜欢我</li>
+    <li>让蔷薇开出一种结果</li>
+    <li>孤独的沙漠里</li>
+    <li>一样盛放的赤裸裸</li>
 
-## 《 我 》
-
-<span>I am what i am</span>
-<span>我永远都爱这样的我</span>
-<span>快乐是</span>
-<span>快乐的方式不只一种</span>
-<span>最荣幸是</span>
-<span>谁都是造物者的光荣</span>
-<span>不用闪躲</span>
-<span>为我喜欢的生活而活</span>
-<span>不用粉墨</span>
-<span>就站在光明的角落</span>
-<span>我就是我</span>
-<span>是颜色不一样的烟火</span>
-<span>天空海阔</span>
-<span>要做最坚强的泡沫</span>
-<span>我喜欢我</span>
-<span>让蔷薇开出一种结果</span>
-<span>孤独的沙漠里</span>
-<span>一样盛放的赤裸裸</span>
-<span>多么高兴</span>
-<span>在琉璃屋中快乐生活</span>
-<span>对世界说什么是光明和磊落</span>
-<span>我就是我</span>
-<span>是颜色不一样的烟火</span>
-<span>天空海阔</span>
-<span>要做最坚强的泡沫</span>
-<span>我喜欢我</span>
-<span>让蔷薇开出一种结果</span>
-<span>孤独的沙漠里</span>
-<span>一样盛放的赤裸裸</span>
+</ul>
 
 ## 
 
 ### 
 
-
-播放：
-
-- [我](https://y.qq.com/portal/player.html)
