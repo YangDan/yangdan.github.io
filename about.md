@@ -4,18 +4,18 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<h3>迷茫妹纸</h3>
+<h3>浅尝辄止的人生</h3>
 
 <div>
-	<span>窗前&nbsp;&nbsp;下雨...</span><br/>
+	<span>从 &nbsp; html 到 &nbsp;.net 再到 &nbsp; Android，再到 &nbsp;iOS ，我做什么都是浅尝辄止，没有坚持研究下去，所以现在做了‘点点点’</span><br/>
 	<br/>
-	<span>一张桌子&nbsp;&nbsp;一把椅子&nbsp;&nbsp;wifi&nbsp;&nbsp;电脑&nbsp;&nbsp;一个低音炮&nbsp;&nbsp;一杯水&nbsp;&nbsp;一下午</span><br/>
+	<span>一桌子&nbsp;&nbsp;一把椅子&nbsp;&nbsp;wifi&nbsp;&nbsp;电脑&nbsp;&nbsp;一个低音炮&nbsp;&nbsp;一杯水&nbsp;&nbsp;一下午</span><br/>
 	<br/>
-	<span>不喜欢人多的地方，所以宅，但不是死宅</span><br/>
+	<span>现在喜欢一整天都呆在家里，哪里也不去，倒腾乱七八糟的东西，弄弄饭，一天就过去了</span><br/>
 	<br/>
-	<span>曾经不喜欢猫，因为猫眼睛很可怕，但是现在希望成为铲屎官了，因为它真的很可爱（拉的粑粑有点臭，我忍）</span><br/>
+	<span></span><br/>
 	<br/>
-	<span>不知道说什么了</span><br/>
+	<span>写不下去了</span><br/>
 	<br/>
 	<span>留个微信吧:ydzatzj(**请注明从gitpages上看到的联系方式**)</span>
 </div>
@@ -32,7 +32,7 @@ layout: page
 
 <h2>Improve</h2>
 
-<ul class="need to up skill-list ">
+<ul class="skill-list ">
 	<li>NodeJS 一点点</li>
 	<li>VueJS - ReactJS  一点点</li>
 	<li>Grunt - Gulp - Webpack</li>
