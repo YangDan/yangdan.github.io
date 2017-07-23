@@ -12,7 +12,7 @@ author: yangdan
 description: 工作汇报和总结
 ---
 
-## - [如何做好工作汇报和总结]
+##  [如何做好工作汇报和总结]
 <span style="font-size: 14px;">到了新美大已经快两月了，发现大厂比较注重工作汇报和总结，本人在这方面能力较弱...</span>
 
 ## 工作汇报的重要性
@@ -26,70 +26,33 @@ description: 工作汇报和总结
         </ul>
     </li>
 
-    <li><strong>保证工作进度</strong> 
+    <li><strong>获得信任</strong> 
         <ul>
-            <li><strong>对齐目标</strong></li>
-            <li><strong>暴露问题</strong></li>
-            <li><strong>推进方案</strong></li>
-            <li><strong>达成结果</strong></li>
+            <li><strong>获得上级的信任</strong></li>
+            <li><strong>获得合作方的信任</strong></li>
         </ul>
     </li>
-    
-    <li><strong>Accpect-Encoding </strong> 说明自己可以接受的压缩格式</li>
-    <li><strong>Accpect-Language </strong> 说明自己可以接受的语言格式</li>
-    <li><strong>Connection </strong> 说明该TCP连接的连接方式
+
+    <li><strong>提升自我</strong> 
         <ul>
-            <li><strong>keep-alive</strong> 表示不关闭，可复用该连接发送请求，服务器端同样回应该字段</li>
-            <li><strong>close</strong> 表示请求发送就关闭连接，不等待服务端返回，想发送连接必须新建，需要客户端和服务端三次握手，开始时发送速率较慢，成本较高</li>
+            <li><strong>逻辑思维</strong></li>
+            <li><strong>语言表达能力</strong></li>
+            <li><strong>获得指导和帮助</strong></li>
+            <li><strong>提升影响力</strong></li>
         </ul>
     </li>
-    <li><strong>Cookie </strong> 每次发送http请求本域名下的cookie会作为附带信息传给服务器</li>
-    <li><strong>Host </strong> 客户端指定自己想请求的服务球的域名/IP之类的</li>
-  <li><strong>If-Modified-Since</strong>告诉服务端如果请求的对象在该请求头指定的时间之后修改了，则执行该动作</li>
-  <li><strong>If-Range</strong>告诉浏览器如果请求的对象没有改变就把剩余的部分传给我，如果已经发生改变就把新的对象传给我</li>
-    <li><strong>If-Match </strong> 设置了Etag,然后对象的Etag没有变化就执行此动作</li>
-  <li><strong>If-None-Match </strong> 设置了Etag,然后对象的Etag发生了变化就执行此动作</li>
-  <li><strong> Referer </strong> 向服务端表明客户端从哪里获得此请求连接的</li>
-  <li><strong> User-Agent </strong> 客户端说明自己身份</li>
-  <li><strong> Request-Url </strong> 请求服务端的url</li>
-  <li><strong> Request-Method</strong> 请求方法 get/post/put/delete </li>
+
+
+    <li><strong>获得发展</strong> 
+        <ul>
+            <li><strong>展示才华</strong></li>
+            <li><strong>更加职业化</strong></li>
+            <li><strong>更好的职业发展</strong></li>
+        </ul>
+    </li>
 
 </ul>
 
-
-<ul>
-	<li>I am what i am</li>
-	<li>我永远都爱这样的我</li>
-	<li>快乐是</li>
-	<li>快乐的方式不只一种</li>
-	<li>最荣幸是</li>
-	<li>谁都是造物者的光荣</li>
-    <li>不用闪躲</li>
-    <li>为我喜欢的生活而活</li>
-	<li>不用粉墨</li>
-    <li>就站在光明的角落</li> 
-    <li>我就是我</li>
-    <li>是颜色不一样的烟火</li>
-    <li>天空海阔</li>
-    <li>要做最坚强的泡沫 </li>
-    <li>我喜欢我</li>
-    <li>让蔷薇开出一种结果</li>
-    <li>孤独的沙漠里</li>
-    <li>一样盛放的赤裸裸</li>
-    <li>多么高兴</li>
-    <li>在琉璃屋中快乐生活</li>
-    <li>对世界说什么是光明和磊落</li>
-    <li>我就是我</li>
-    <li>是颜色不一样的烟火</li>
-    <li>是颜色不一样的烟火</li>
-    <li>天空海阔</li>
-    <li>要做最坚强的泡沫 </li>
-    <li>我喜欢我</li>
-    <li>让蔷薇开出一种结果</li>
-    <li>孤独的沙漠里</li>
-    <li>一样盛放的赤裸裸</li>
-
-</ul>
 
 ## 
 
