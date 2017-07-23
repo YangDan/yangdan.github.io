@@ -19,48 +19,46 @@ description: 工作汇报和总结
 <ul>
     <li><strong>保证工作进度</strong> 
         <ul>
-            <li><strong>对齐目标</strong></li>
-            <li><strong>暴露问题</strong></li>
-            <li><strong>推进方案</strong></li>
-            <li><strong>达成结果</strong></li>
+            <li>对齐目标</li>
+            <li>暴露问题</li>
+            <li>推进方案</li>
+            <li>达成结果</li>
         </ul>
     </li>
 
     <li><strong>获得信任</strong> 
         <ul>
-            <li><strong>获得上级的信任</strong></li>
-            <li><strong>获得合作方的信任</strong></li>
+            <li>获得上级的信任</li>
+            <li>获得合作方的信任</li>
         </ul>
     </li>
 
     <li><strong>提升自我</strong> 
         <ul>
-            <li><strong>逻辑思维</strong></li>
-            <li><strong>语言表达能力</strong></li>
-            <li><strong>获得指导和帮助</strong></li>
-            <li><strong>提升影响力</strong></li>
+            <li>逻辑思维</li>
+            <li>语言表达能力</li>
+            <li>获得指导和帮助</li>
+            <li>提升影响力</li>
         </ul>
     </li>
 
 
     <li><strong>获得发展</strong> 
         <ul>
-            <li><strong>展示才华</strong></li>
-            <li><strong>更加职业化</strong></li>
-            <li><strong>更好的职业发展</strong></li>
+            <li>展示才华</li>
+            <li>更加职业化</li>
+            <li>更好的职业发展</li>
         </ul>
     </li>
 </ul>
 
 ## 如何做好工作汇报和总结
 <ul>
-    <li><strong>确定目标</strong></li>
-    <li><strong>展开汇报</strong></li>
-    <li><strong>做好总结</strong></li>
+    <li>确定目标</li>
+    <li>展开汇报</li>
+    <li>做好总结</li>
 
 </ul>
 
-## 
 
-### 
 
