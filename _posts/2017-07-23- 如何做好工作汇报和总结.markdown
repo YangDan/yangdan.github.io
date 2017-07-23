@@ -1,7 +1,7 @@
 ---
 title: '如何做好工作汇报和总结'
 layout: post
-date: 2017-05-02 16:20
+date: 2017-07-23 16:20
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -12,7 +12,7 @@ author: yangdan
 description: 工作汇报和总结
 ---
 
-##  [如何做好工作汇报和总结]
+##  如何做好工作汇报和总结?
 <span style="font-size: 14px;">到了新美大已经快两月了，发现大厂比较注重工作汇报和总结，本人在这方面能力较弱...</span>
 
 ## 工作汇报的重要性
@@ -50,9 +50,15 @@ description: 工作汇报和总结
             <li><strong>更好的职业发展</strong></li>
         </ul>
     </li>
-
 </ul>
 
+## 如何做好工作汇报和总结
+<ul>
+    <li><strong>确定目标</strong></li>
+    <li><strong>展开汇报</strong></li>
+    <li><strong>做好总结</strong></li>
+
+</ul>
 
 ## 
 
